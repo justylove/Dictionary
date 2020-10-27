@@ -1,0 +1,65 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "vmArgs": "--module-path C:\\Users\\Justilove\\Java\\javafx-sdk-11.0.2\\lib --add-modules javafx.controls,javafx.fxml,java.graphics",
+            "mainClass": "Main",
+            "projectName": "JavaFX_56662822"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "sample.Main",
+            "vmArgs": "--module-path C:\\Users\\Justilove\\Java\\javafx-sdk-11.0.2\\lib --add-modules javafx.controls,javafx.fxml,javafx.graphics",
+            "projectName": "JavaFX_56662822"
+        },
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<JavaFX_56662822>",
+            "request": "launch",
+            "vmArgs": "--module-path C:\\Users\\Justilove\\Java\\javafx-sdk-11.0.2\\lib --add-modules javafx.controls,javafx.fxml,javafx.graphics",
+            "mainClass": "App",
+            "projectName": "JavaFX_56662822"
+        }
+    ]
+}
